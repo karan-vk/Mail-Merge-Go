@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241ac23d-f41a-4ec3-bf69-a9b0075bcce6" name="Default Changelist" comment="output added">
+    <list default="true" id="241ac23d-f41a-4ec3-bf69-a9b0075bcce6" name="Default Changelist" comment="Fixed a bug">
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/report.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendmail.go" beforeDir="false" afterPath="$PROJECT_DIR$/sendmail.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="output added" />
-    <option name="LAST_COMMIT_MESSAGE" value="output added" />
+    <MESSAGE value="Fixed a bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603879085189">

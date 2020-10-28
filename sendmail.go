@@ -31,41 +31,33 @@ func sendEmail() {
 				fmt.Println("File reading error", err)
 				return
 			}
-			send(emails[index], string(data),c)
-			//fmt.Println(string(data))
+			send(emails[index], string(data), c)
 		}
 	}
 	for l := range c {
 		e := l
-		go func(l string,e string) {
-			// time.Sleep(5*time.Second)
-			send(l,e, c)
-		}(l,e)
+		go func(l string, e string) {
+			send(l, e, c)
+		}(l, e)
 	}
 
-	//fmt.Println()
 }
-func send(email string, body string, c chan string ) {
+func send(email string, body string, c chan string) {
 	from := "testuser.sret@gmail.com"
 	password := "testuser"
 
-	// Receiver email address.
 	to := []string{
 		email,
 	}
 	fmt.Println(to[0])
 
-	// smtp server configuration.
 	smtpHost := "smtp.gmail.com"
 	smtpPort := "587"
 
-	// Message.
 	message := []byte(body)
 
-	// Authentication.
 	auth := smtp.PlainAuth("", from, password, smtpHost)
 
-	// Sending email.
 	err := smtp.SendMail(smtpHost+":"+smtpPort, auth, from, to, message)
 	if err != nil {
 		fmt.Println(err)

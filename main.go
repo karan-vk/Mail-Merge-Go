@@ -27,7 +27,7 @@ func main() {
 		panic(err)
 	} //O(1)-T O(1)-S
 	defer file.Close() //O(1)-T O(1)-S note space is released by the garbage collector
-	e
+
 	reader := csv.NewReader(file) //O(1)-T O(n)-S
 	reader.Comma = ','
 	for {

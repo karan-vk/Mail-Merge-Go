@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241ac23d-f41a-4ec3-bf69-a9b0075bcce6" name="Default Changelist" comment="Fixed a bug">
+    <list default="true" id="241ac23d-f41a-4ec3-bf69-a9b0075bcce6" name="Default Changelist" comment="Refactored">
+      <change afterPath="$PROJECT_DIR$/output/klmsathishkumar@gmail.com.eml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/﻿karanvknarayanan@gmail.com.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/report.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sendmail.go" beforeDir="false" afterPath="$PROJECT_DIR$/sendmail.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +36,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jV3M9ttYZsymd45Al3Pu3dex1I" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -60,17 +66,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="output added" />
     <MESSAGE value="Fixed a bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug" />
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603879085189">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603880410499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603879085189" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603880410499" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603879055018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

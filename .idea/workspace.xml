@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241ac23d-f41a-4ec3-bf69-a9b0075bcce6" name="Default Changelist" comment="Refactored">
-      <change afterPath="$PROJECT_DIR$/output/klmsathishkumar@gmail.com.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/﻿karanvknarayanan@gmail.com.eml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sendmail.go" beforeDir="false" afterPath="$PROJECT_DIR$/sendmail.go" afterDir="false" />
-    </list>
+    <list default="true" id="241ac23d-f41a-4ec3-bf69-a9b0075bcce6" name="Default Changelist" comment="fixed a breaking issue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,13 +67,15 @@
     <MESSAGE value="output added" />
     <MESSAGE value="Fixed a bug" />
     <MESSAGE value="Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+    <MESSAGE value="Analysis" />
+    <MESSAGE value="fixed a breaking issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a breaking issue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603880410499">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604046881193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603880410499" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604046881193" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603879055018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
